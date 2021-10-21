@@ -1,9 +1,7 @@
 <?xml version='1.0' encoding='UTF-8'?>
-    <string name="decks">Decks</string>
     <string name="card_browser" comment="The usage of card browser inside the app (note the casing)">Kartenbrowser</string>
     <string name="statistics">Statistik</string>
     <string name="settings">Einstellungen Testtest</string>
-    <string name="help">Hilfe</string>
     <string name="drawing">Zeichnen</string>
     <string name="send_feedback">Feedback senden</string>
 
@@ -43,7 +41,6 @@
     <string name="ease_button_again">Nochmals.</string>
     <string name="ease_button_hard">Hart</string>
     <string name="ease_button_good">Gut, gut.</string>
-    <string name="ease_button_easy">Easy</string>
     <string name="studyoptions_congrats_undo">%s rückgängig machen</string>
     <string name="menu_import">Importieren</string>
     <string name="undo">Rückgängig machen</string>
@@ -88,16 +85,13 @@
     <string name="night_mode">Nachtmodus</string>
     <string name="directory_inaccessible">AnkiDroid-Verzeichnis ist unzugänglich</string>
     <string name="startup_no_storage_permission">Bitte erteilen Sie AnkiDroid die Berechtigung \"Speicher\", um fortzufahren</string>
-    <string name="time_quantity_seconds">%d s</string>
     <string name="time_quantity_minutes">%d Min.</string>
-    <string name="time_quantity_hours_minutes">%1$d h %2$d m</string>
-    <string name="time_quantity_hours">%d h</string>
-    <string name="time_quantity_days">%d d</string>
-    <string name="time_quantity_days_hours">%1$d d %2$d h</string>
+
+
+
     <string name="time_quantity_months">%.1f Mo</string>
     <string name="time_quantity_years">%.1f Jahr</string>
     <string name="rebuild_filtered_deck">Neuaufbau des gefilterten Decks…</string>
-    <string name="rebuild_cram_label">Rebuild</string>
     <string name="empty_cram_label">Leere</string>
     <string name="create_subdeck">Unterdeck anlegen</string>
     <string name="empty_filtered_deck">Entleeren des gefilterten Decks…</string>
@@ -130,7 +124,6 @@
     <string name="title_activity_template_editor">Kartentypen</string>
     <string name="card_template_editor_front">Frontschablone</string>
     <string name="card_template_editor_back">Back Template</string>
-    <string name="card_template_editor_styling">Styling</string>
     <string name="card_template_editor_menu_card_browser_appearance">Aussehen des Kartenbrowsers</string>
     <string name="card_template_editor_deck_override">Deck-Override</string>
     <string name="card_template_editor_insert_field">Feld einfügen</string>
@@ -149,7 +142,6 @@
     <string name="card_template_editor_save_error">Änderungen an der Kartenvorlage können nicht gespeichert werden: %s</string>
     <string name="template_for_current_card_deleted">Der Kartentyp für die aktuelle Karte wurde gelöscht.</string>
     <string name="card_template_browser_appearance_title">Aussehen des Browsers</string>
-    <string name="current_and_default_deck">%1$s (%2$s)</string>
     <string name="card_info_title">Karteninfo</string>
     <string name="read_write_permission_label">Lesen und Schreiben in die AnkiDroid-Datenbank</string>
     <string name="read_write_permission_description">auf vorhandene Notizen, Karten, Notiztypen und Decks zugreifen und neue erstellen</string>
@@ -165,8 +157,7 @@
     <string name="wrong_tag_closed">Gefunden \'{{/%1$s}}\', aber erwartet \'{{/%2$s}}\'</string>
     <string name="filter_error">Fehler im Filter %s</string>
     <string name="sync_conflict_message_new">Die Sammlungen können nicht kombiniert werden.\nWelche Sammlung möchten Sie behalten?</string>
-    <string name="sync_conflict_keep_local_new" comment="Select AnkiDroid files to keep while syncing">AnkiDroid</string>
-    <string name="sync_conflict_keep_remote_new" comment="Select AnkiWeb files to keep while syncing">AnkiWeb</string>
+
     <string name="sync_conflict_remote_confirm_new">Ersetzen Sie Ihre Sammlung auf AnkiDroid mit Ihrer Sammlung von AnkiWeb?</string>
     <string name="sync_conflict_local_confirm_new">Ersetzen Sie Ihre Sammlung auf AnkiWeb mit Ihrer Sammlung von AnkiDroid?</string>
     <string name="sync_conflict_title_new">Sammlung auswählen, die beibehalten werden soll</string>
