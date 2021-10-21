@@ -4,4 +4,178 @@
     <string name="statistics">Статистика</string>
     <string name="settings">Тест тест тест настроек</string>
     <string name="help">Помощь</string>
+    <string name="drawing">Рисование</string>
+    <string name="send_feedback">Отправить отзыв</string>
+
+    <string name="studyoptions_due_today">Срок сдачи сегодня:</string>
+    <string name="studyoptions_new_total">Всего новых карт:</string>
+    <string name="studyoptions_total_cards">Общее количество карт:</string>
+    <string name="studyoptions_eta">Расчетное время (мин):</string>
+    <string name="studyoptions_start">Изучать</string>
+    <string name="expand">Расширять</string>
+    <string name="collapse">Коллапс</string>
+    <string name="study_more">Изучайте больше</string>
+    <plurals name="deckpicker_title">
+        <item quantity="one">%1$d задолженность по карте в размере  (%2$s)</item>
+        <item quantity="other">%1$d задолженность по картам в размере (%2$s)</item>
+    </plurals>
+    <plurals name="reviewer_window_title">
+        <item quantity="one">%d осталась минута</item>
+        <item quantity="other">%d осталось минут</item>
+    </plurals>
+    <plurals name="reviewer_window_title_hours">
+        <item quantity="one">%d час %d осталось</item>
+        <item quantity="other">%d часов %d осталось</item>
+    </plurals>
+    <plurals name="reviewer_window_title_days">
+        <item quantity="one">%d день %d осталось</item>
+        <item quantity="other">%d дней %d осталось</item>
+    </plurals>
+    <string name="no_cards_placeholder_title">Коллекция пуста</string>
+    <string name="no_cards_placeholder_description">Начните добавлять карты\используя значок +.</string>
+    <plurals name="studied_cards_today">
+        <item quantity="one">Изучил карту %1$d в %2$s сегодня</item>
+        <item quantity="other">Изучил карты %1$d в %2$s сегодня</item>
+    </plurals>
+    <string name="type_answer_hint">Введите ответ</string>
+    <string name="show_answer">Показать ответ</string>
+    <string name="hide_answer">Скрыть ответ</string>
+    <string name="ease_button_again">Снова</string>
+    <string name="ease_button_hard">Трудный</string>
+    <string name="ease_button_good">Хорошо</string>
+    <string name="ease_button_easy">Легко</string>
+    <string name="studyoptions_congrats_undo">Отменить %s</string>
+    <string name="menu_import">Импорт</string>
+    <string name="undo">Отменить</string>
+    <string name="undo_action_review">последний обзор</string>
+    <string name="undo_action_change_deck_multi">меняйте колоды</string>
+    <string name="move_all_to_deck">Переместите все на палубу</string>
+    <string name="unbury">Унбери</string>
+    <string name="rename_deck">Переименовать колоду</string>
+    <string name="create_shortcut">Создать ярлык</string>
+    <string name="browse_cards">Просмотр карточек</string>
+    <string name="menu_add" comment="A generic add button - Main Deck Picker and card templates. Please inform us if you need more specific strings">Добавь</string>
+    <string name="menu_add_note">Добавить примечание</string>
+    <string name="menu_my_account" comment="Label of the window in which the user should enter their account. This text can't be found in AnkiDroid directly.">Учетная запись синхронизации</string>
+    <string name="menu_dismiss_note">Скрыть /удалить</string>
+    <string name="menu_bury_card">Похоронить карту</string>
+    <string name="menu_bury_note">Похоронить записку</string>
+    <string name="menu_suspend_card">Приостановить действие карты</string>
+    <string name="menu_suspend_note">Приостановить примечание</string>
+    <string name="menu_bury">Закапывать</string>
+    <string name="menu_suspend">Приостановить</string>
+    <string name="menu_delete_note">Удалить заметку</string>
+    <string name="menu_flag">Флаг</string>
+    <string name="menu_flag_card">Карточка флага</string>
+    <string name="menu_flag_card_zero">Без флага</string>
+    <string name="menu_flag_card_one">Красный флаг</string>
+    <string name="menu_flag_card_two">Оранжевый флаг</string>
+    <string name="menu_flag_card_three">Зеленый флаг</string>
+    <string name="menu_flag_card_four">Голубой флаг</string>
+    <string name="menu_flag_card_five">Розовый флаг</string>
+    <string name="menu_flag_card_six">Бирюзовый флаг</string>
+    <string name="menu_flag_card_seven">Фиолетовый флаг</string>
+    <string name="menu_edit_tags">Редактировать теги</string>
+    <string name="delete_note_message">Действительно удалить эту заметку и все ее карточки?\n%s</string>
+    <string name="menu_select">Выделите текст</string>
+    <string name="menu_lookup">Поиск текста</string>
+    <string name="menu_search">Поиск в %1$s</string>
+    <string name="menu_mark_note">Отметить заметку</string>
+    <string name="menu_unmark_note">Снять пометку с примечания</string>
+    <string name="menu_toggle_mic_tool_bar">Проверьте произношение</string>
+    <string name="new_deck">Создать колоду</string>
+    <string name="new_dynamic_deck">Создать отфильтрованную колоду</string>
+    <string name="night_mode">Ночной режим</string>
+    <string name="directory_inaccessible">Каталог AnkiDroid недоступен</string>
+    <string name="startup_no_storage_permission">Пожалуйста, предоставьте Анкидроиду разрешение на \"Хранение’ для продолжения</string>
+    <string name="time_quantity_seconds">%d с</string>
+    <string name="time_quantity_minutes">%d мин</string>
+    <string name="time_quantity_hours_minutes">%1$d ч %2$d м</string>
+    <string name="time_quantity_hours">%d ч</string>
+    <string name="time_quantity_days">%d дн</string>
+    <string name="time_quantity_days_hours">%1$d дн %2$d ч</string>
+    <string name="time_quantity_months">%.1ф мес</string>
+    <string name="time_quantity_years">%.1ф год</string>
+    <string name="rebuild_filtered_deck">Восстановление отфильтрованной колоды…</string>
+    <string name="rebuild_cram_label">Перестраивать</string>
+    <string name="empty_cram_label">Пустой</string>
+    <string name="create_subdeck">Создать поддек</string>
+    <string name="empty_filtered_deck">Опорожнение фильтрованной колоды…</string>
+    <string name="custom_study_deck_name">Пользовательская учебная сессия</string>
+    <string name="custom_study_deck_exists">Сначала переименуйте существующую пользовательскую учебную колоду</string>
+    <string name="empty_deck">Эта колода пуста</string>
+    <string name="search_deck">Поиск на палубе</string>
+    <string name="empty_deck_add_note">Добавить карту</string>
+    <string name="invalid_deck_name">Неверное имя колоды</string>
+    <string name="studyoptions_empty">Эта палуба пуста. Нажмите кнопку +, чтобы добавить новый контент.</string>
+    <string name="studyoptions_limit_reached">Достигнут лимит ежедневного обучения</string>
+    <string name="studyoptions_empty_schedule">Нет карточек, запланированных для изучения</string>
+    <string name="studyoptions_congrats_finished">Поздравляю! На данный момент вы закончили.</string>
+    <string name="studyoptions_congrats_more_rev">Сегодняшний лимит достигнут, но еще есть карты, которые нужно просмотреть. Вы можете увеличить лимит в опциях.</string>
+    <string name="studyoptions_congrats_more_new">Сегодняшний предел достигнут. Доступно больше новых карт; вы можете увеличить лимит в опциях, но это увеличит вашу нагрузку на краткосрочную проверку.</string>
+    <string name="studyoptions_congrats_custom">Чтобы учиться вне обычного расписания, нажмите кнопку “Индивидуальное обучение”.</string>
+    <string name="studyoptions_no_cards_due">Карты еще не готовы</string>
+
+    <string name="sd_card_not_mounted">Хранилище устройств не смонтировано</string>
+    <string name="empty_cloze_warning">Отредактируйте эту заметку и добавьте несколько удалений cloze. (%1$s)</string>
+    <string name="button_sync">Синхронизация</string>
+    <string name="cancel_sync_confirm">Вы хотите отменить синхронизацию?</string>
+    <string name="continue_sync">Продолжить синхронизацию</string>
+    <string name="sync_cancelled">Синхронизация отменена</string>
+    <string name="sync_cancel_message">Отмена...\Это может занять некоторое время.</string>
+    <string name="export">Экспорт</string>
+    <string name="export_collection">Коллекция экспорта</string>
+    <string name="export_deck">Экспортная колода</string>
+    <string name="nothing">Ничего</string>
+    <string name="title_activity_template_editor">Типы карт</string>
+    <string name="card_template_editor_front">Передний шаблон</string>
+    <string name="card_template_editor_back">Задний шаблон</string>
+    <string name="card_template_editor_styling">Моделирование</string>
+    <string name="card_template_editor_menu_card_browser_appearance">Внешний вид Браузера карт</string>
+    <string name="card_template_editor_deck_override">Переопределение палубы</string>
+    <string name="card_template_editor_insert_field">Поле вставки</string>
+    <string name="card_template_editor_select_field">Выберите поле</string>
+    <string name="card_template_editor_cant_delete">Требуется по крайней мере один тип карты</string>
+    <plurals name="card_template_editor_confirm_add">
+        <item quantity="one">Это создаст карту %1$d. Продолжать?</item>
+        <item quantity="other">Это создаст карты %1$d. Продолжать?</item>
+    </plurals>
+    <plurals name="card_template_editor_confirm_delete">
+        <item quantity="one">Удалить тип карты “%2$s” и ее карту %1$d?</item>
+        <item quantity="other">Удалить тип карты “%2$s” и ее карты %1$d?</item>
+    </plurals>
+    <string name="invalid_template">Не удалось сгенерировать карту</string>
+    <string name="card_template_editor_would_delete_note">Удаление этого типа карты приведет к удалению одной или нескольких заметок. Пожалуйста, сначала создайте и сохраните новый тип карты.</string>
+    <string name="card_template_editor_save_error">Не удалось сохранить изменения шаблона карты: %s</string>
+    <string name="template_for_current_card_deleted">Тип карты для текущей карты был удален.</string>
+    <string name="card_template_browser_appearance_title">Внешний вид браузера</string>
+    <string name="current_and_default_deck">%1$s (%2$s)</string>
+    <string name="card_info_title">Информация о карте</string>
+    <string name="read_write_permission_label">Чтение и запись в базу данных AnkiDroid</string>
+    <string name="read_write_permission_description">получите доступ к существующим заметкам, картам, типам заметок и колодам, а также создайте новые</string>
+    <string name="card_browser_context_menu" comment="The value which appears in the system context menu. Note the casing difference">Браузер карт</string>
+
+    <string name="context_menu_anki_card_label">Карта Анки</string>
+    <string name="has_a_problem" comment="First field is either front template or back template. Second field is the error message.">у %1$s возникла проблема: <br/>%2$s</string>
+    <string name="more_information">Дополнительная информация</string>
+    <string name="no_field">Найдено \"{{%1$s}}\", но нет поля с именем \"%1$s\".</string>
+    <string name="closed_tag_not_open">Найдено \"{{/%1$s}}\", но отсутствует \"{{#%1$s}}\" или \"{{^%1$s}}\".</string>
+    <string name="missing_closing_bracket">Отсутствует \"}}\" в \"%s\".</string>
+    <string name="open_tag_not_closed">Отсутствует \'{{%s}}\'.</string>
+    <string name="wrong_tag_closed">Найдено \'{{/%1$s}}\', но ожидалось \'{{/%2$s}}\'</string>
+    <string name="filter_error">Ошибка в фильтре %s</string>
+    <string name="sync_conflict_message_new">Коллекции не могут быть объединены.\Какую коллекцию вы хотите сохранить?</string>
+    <string name="sync_conflict_keep_local_new" comment="Select AnkiDroid files to keep while syncing">АнкиДроид</string>
+    <string name="sync_conflict_keep_remote_new" comment="Select AnkiWeb files to keep while syncing">АнкиВеб</string>
+    <string name="sync_conflict_remote_confirm_new">Замените свою коллекцию на AnkiDroid своей коллекцией из AnkiWeb?</string>
+    <string name="sync_conflict_local_confirm_new">Замените свою коллекцию на AnkiWeb своей коллекцией от AnkiDroid?</string>
+    <string name="sync_conflict_title_new">Выберите коллекцию для сохранения</string>
+    <string name="sync_conflict_replace_title">Заменить коллекцию</string>
+
+    <plurals name="deckpicker_title_zero_due">
+        <item quantity="one">%1$d карта (0 причитающихся)</item>
+        <item quantity="other">%1$d карты (0 причитающихся)</item>
+    </plurals>
+
+    <string name="copy_note_type_name" comment="The new name of a copied note type">%s копия</string>
 </resources>
