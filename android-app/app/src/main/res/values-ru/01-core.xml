@@ -3,6 +3,7 @@
     <string name="card_browser" comment="The usage of card browser inside the app (note the casing)">Браузер</string>
     <string name="statistics">Статистика</string>
     <string name="settings">Тест тест тест настроек</string>
+    <string name="help">Помогать или не помогать</string>
     <string name="drawing">Рисование</string>
     <string name="send_feedback">Отправить отзыв</string>
 
