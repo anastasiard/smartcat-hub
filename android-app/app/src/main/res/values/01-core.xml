@@ -32,7 +32,7 @@
     <string name="studyoptions_new_total">Total new cards:</string>
     <string name="studyoptions_total_cards">Total cards:</string>
     <string name="studyoptions_eta">Estimated time (min):</string>
-    <string name="studyoptions_start">Study</string>
+    <string name="studyoptions_start">This text was changed</string>
 
     <!-- DeckPicker.java -->
     <string name="expand">Expand</string>
