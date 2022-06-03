@@ -14,7 +14,7 @@
     <string name="studyoptions_total_cards">Gesamtzahl der Karten:</string>
     <string name="studyoptions_eta">Geschätzte Zeit (min):</string>
     <string name="studyoptions_start">Studie</string>
-<string name="expand">Это тест</string>
+<string name="expand"></string>
     <string name="collapse">Einklappen</string>
     <string name="study_more">Mehr erfahren</string>
     <plurals name="deckpicker_title">
