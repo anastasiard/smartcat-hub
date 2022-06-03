@@ -1,0 +1,183 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<resources>
+    <string name="yes">დიახ</string>
+<string name="decks">გემბანები</string>
+    <string name="card_browser" comment="The usage of card browser inside the app (note the casing)">ბარათის ბრაუზერი</string>
+    <string name="statistics">სტატისტიკა</string>
+    <string name="settings">პარამეტრების ტესტის ტესტი</string>
+    <string name="help">დაეხმარე თუ არა</string>
+    <string name="drawing">ნახატი</string>
+    <string name="send_feedback">გამოხმაურების გაგზავნა</string>
+
+    <string name="studyoptions_due_today">გადასახდელი დღეს:</string>
+    <string name="studyoptions_new_total">სულ ახალი ბარათები:</string>
+    <string name="studyoptions_total_cards">სულ ბარათები:</string>
+    <string name="studyoptions_eta">სავარაუდო დრო (წთ):</string>
+    <string name="studyoptions_start">ეს ტექსტი შეიცვალა</string>
+<string name="expand">Ეს ტესტია</string>
+    <string name="collapse">კოლაფსი</string>
+    <string name="study_more">Ისწავლე მეტი</string>
+    <plurals name="deckpicker_title">
+        <item quantity="one">%1$d ბარათის ვადა (%2$s)</item>
+        <item quantity="other">%1$d ბარათის გადახდა (%2$s)</item>
+    </plurals>
+    <plurals name="reviewer_window_title">
+        <item quantity="one">დარჩა %d წუთი</item>
+        <item quantity="other">დარჩა %d წუთი</item>
+    </plurals>
+    <plurals name="reviewer_window_title_hours">
+        <item quantity="one">დარჩა %d საათი %d</item>
+        <item quantity="other">დარჩენილია %d საათი. %d</item>
+    </plurals>
+    <plurals name="reviewer_window_title_days">
+        <item quantity="one">დარჩა %d დღე %d</item>
+        <item quantity="other">დარჩა %d დღე %d</item>
+    </plurals>
+    <string name="no_cards_placeholder_title">კოლექცია ცარიელია</string>
+    <string name="no_cards_placeholder_description">დაიწყეთ ბარათების დამატება\+ ხატულაზე.</string>
+<plurals name="studied_cards_today">
+        <item quantity="one">დღეს შევისწავლე %1$d ბარათი %2$s-ში</item>
+        <item quantity="other">დღეს შევისწავლე %1$d ბარათი %2$s-ში</item>
+    </plurals>
+<string name="type_answer_hint">ჩაწერეთ პასუხი</string>
+    <string name="show_answer">Მანახე პასუხი</string>
+    <string name="hide_answer">პასუხის დამალვა</string>
+    <string name="ease_button_again">ისევ</string>
+    <string name="ease_button_hard">მძიმე</string>
+    <string name="ease_button_good">კარგი</string>
+    <string name="ease_button_easy">Მარტივი</string>
+    <string name="studyoptions_congrats_undo">%s-ის გაუქმება</string>
+    <string name="menu_import">იმპორტი</string>
+    <string name="undo">გაუქმება</string>
+    <string name="undo_action_review">ბოლო მიმოხილვა</string>
+    <string name="undo_action_change_deck_multi">გემბანების შეცვლა</string>
+    <string name="move_all_to_deck">გადაიტანეთ ყველა გემბანზე</string>
+    <string name="unbury">დამარხვა</string>
+    <string name="rename_deck">გემბანის სახელის გადარქმევა</string>
+    <string name="create_shortcut">მალსახმობის შექმნა</string>
+    <string name="browse_cards">ბარათების დათვალიერება</string>
+    <string name="menu_add" comment="A generic add button - Main Deck Picker and card templates. Please inform us if you need more specific strings">დამატება</string>
+    <string name="menu_add_note">შენიშვნის დამატება</string>
+    <string name="menu_my_account" comment="Label of the window in which the user should enter their account. This text can't be found in AnkiDroid directly.">ანგარიშის სინქრონიზაცია</string>
+    <string name="menu_dismiss_note">დამალვა / წაშლა</string>
+    <string name="menu_bury_card">დაკრძალვის ბარათი</string>
+    <string name="menu_bury_note">დამარხული შენიშვნა</string>
+    <string name="menu_suspend_card">ბარათის შეჩერება</string>
+    <string name="menu_suspend_note">შეაჩერე შენიშვნა</string>
+    <string name="menu_bury">დამარხეთ</string>
+    <string name="menu_suspend">შეაჩერე</string>
+    <string name="menu_delete_note">შენიშვნის წაშლა</string>
+    <string name="menu_flag">დროშა</string>
+    <string name="menu_flag_card">დროშის ბარათი</string>
+    <string name="menu_flag_card_zero">არავითარი დროშა</string>
+    <string name="menu_flag_card_one">წითელი დროშა</string>
+    <string name="menu_flag_card_two">ნარინჯისფერი დროშა</string>
+    <string name="menu_flag_card_three">მწვანე დროშა</string>
+    <string name="menu_flag_card_four">ლურჯი დროშა</string>
+    <string name="menu_flag_card_five">ვარდისფერი დროშა</string>
+    <string name="menu_flag_card_six">ფირუზისფერი დროშა</string>
+    <string name="menu_flag_card_seven">მეწამული დროშა</string>
+    <string name="menu_edit_tags">ტეგების რედაქტირება</string>
+    <string name="delete_note_message">მართლა წაშალეთ ეს შენიშვნა და მისი ყველა ბარათი?\n%s</string>
+    <string name="menu_select">აირჩიეთ ტექსტი</string>
+    <string name="menu_lookup">ტექსტის ძიება</string>
+    <string name="menu_search">ძიება %1$s-ში</string>
+    <string name="menu_mark_note">მონიშნე შენიშვნა</string>
+    <string name="menu_unmark_note">მონიშვნის მოხსნა</string>
+    <string name="menu_toggle_mic_tool_bar">შეამოწმეთ გამოთქმა</string>
+    <string name="new_deck">გემბანის შექმნა</string>
+    <string name="new_dynamic_deck">შექმენით გაფილტრული გემბანი</string>
+    <string name="night_mode">Ღამის რეჟიმი</string>
+    <string name="directory_inaccessible">AnkiDroid დირექტორია მიუწვდომელია</string>
+<string name="startup_no_storage_permission">გთხოვთ, მიანიჭოთ AnkiDroid-ს \'Storage\' გაგრძელების ნებართვა</string>
+<string name="time_quantity_seconds">%ds</string>
+    <string name="time_quantity_minutes">%d წთ</string>
+    <string name="time_quantity_hours_minutes">%1$dh %2$dm</string>
+    <string name="time_quantity_hours">%dh</string>
+    <string name="time_quantity_days">%dd</string>
+    <string name="time_quantity_days_hours">%1$dd %2$dh</string>
+    <string name="time_quantity_months">%.1f თვე</string>
+    <string name="time_quantity_years">%.1f წ</string>
+<string name="rebuild_filtered_deck">მიმდინარეობს გაფილტრული გემბანის აღდგენა…</string>
+    <string name="rebuild_cram_label">ხელახლა აშენება</string>
+    <string name="empty_cram_label">ცარიელი</string>
+    <string name="create_subdeck">შექმენით ქვეგელა</string>
+    <string name="empty_filtered_deck">მიმდინარეობს გაფილტრული გემბანის დაცლა…</string>
+    <string name="custom_study_deck_name">ინდივიდუალური სასწავლო სესია</string>
+    <string name="custom_study_deck_exists">ჯერ გადაარქვით არსებული სასწავლო გემბანის სახელი</string>
+    <string name="empty_deck">ეს გემბანი ცარიელია</string>
+    <string name="search_deck">გემბანის ძებნა</string>
+    <string name="empty_deck_add_note">ბარათის დამატება</string>
+    <string name="invalid_deck_name">გემბანის სახელი არასწორია</string>
+    <string name="studyoptions_empty">ეს გემბანი ცარიელია. დააჭირეთ ღილაკს + ახალი შინაარსის დასამატებლად.</string>
+    <string name="studyoptions_limit_reached">მიღწეულია ყოველდღიური სასწავლო ლიმიტი</string>
+    <string name="studyoptions_empty_schedule">არ არის დაგეგმილი სწავლის ბარათები</string>
+    <string name="studyoptions_congrats_finished">გილოცავ! თქვენ დაასრულეთ ამ დროისთვის.</string>
+    <string name="studyoptions_congrats_more_rev">დღევანდელი ლიმიტი მიღწეულია, მაგრამ ჯერ კიდევ არის ბარათები განსახილველი. შეგიძლიათ გაზარდოთ ლიმიტი ოფციებში.</string>
+    <string name="studyoptions_congrats_more_new">დღევანდელი ლიმიტი მიღწეულია. მეტი ახალი ბარათია ხელმისაწვდომი; შეგიძლიათ გაზარდოთ ლიმიტი ვარიანტებში, მაგრამ ეს გაზრდის თქვენს მოკლევადიანი განხილვის დატვირთვას.</string>
+    <string name="studyoptions_congrats_custom">ჩვეულებრივი გრაფიკის მიღმა სწავლისთვის, შეეხეთ ღილაკს „მორგებული შესწავლა“.</string>
+    <string name="studyoptions_no_cards_due">ჯერ არ არის გადახდილი ბარათები</string>
+
+    <string name="sd_card_not_mounted">მოწყობილობის საცავი არ არის დამონტაჟებული</string>
+    <string name="empty_cloze_warning">დაარედაქტირეთ ეს შენიშვნა და დაამატეთ რამდენიმე წაშლა. (%1$s)</string>
+    <string name="button_sync">სინქრონიზაცია</string>
+    <string name="cancel_sync_confirm">გსურთ გააუქმოთ სინქრონიზაცია?</string>
+    <string name="continue_sync">სინქრონიზაციის გაგრძელება</string>
+    <string name="sync_cancelled">სინქრონიზაცია გაუქმდა</string>
+    <string name="sync_cancel_message">მიმდინარეობს გაუქმება…\nამას შეიძლება გარკვეული დრო დასჭირდეს.</string>
+    <string name="export">ექსპორტი</string>
+    <string name="export_collection">ექსპორტის კოლექცია</string>
+    <string name="export_deck">საექსპორტო გემბანი</string>
+    <string name="nothing">არაფერი</string>
+<string name="title_activity_template_editor">ბარათების ტიპები</string>
+    <string name="card_template_editor_front">წინა შაბლონი</string>
+    <string name="card_template_editor_back">უკანა შაბლონი</string>
+    <string name="card_template_editor_styling">სტილისტიკა</string>
+    <string name="card_template_editor_menu_card_browser_appearance">ბარათის ბრაუზერის გარეგნობა</string>
+    <string name="card_template_editor_deck_override">Deck Override</string>
+    <string name="card_template_editor_insert_field">ველის ჩასმა</string>
+    <string name="card_template_editor_select_field">აირჩიეთ ველი</string>
+    <string name="card_template_editor_cant_delete">საჭიროა მინიმუმ ერთი ბარათის ტიპი</string>
+    <plurals name="card_template_editor_confirm_add">
+        <item quantity="one">ეს შექმნის %1$d ბარათს. გაგრძელება?</item>
+        <item quantity="other">ეს შექმნის %1$d ბარათს. გაგრძელება?</item>
+    </plurals>
+    <plurals name="card_template_editor_confirm_delete">
+        <item quantity="one">წაშალოთ „%2$s“ ბარათის ტიპი და მისი %1$d ბარათი?</item>
+        <item quantity="other">წაშალოთ „%2$s“ ბარათის ტიპი და მისი %1$d ბარათი?</item>
+    </plurals>
+    <string name="invalid_template">ბარათის გენერირება ვერ მოხერხდა</string>
+    <string name="card_template_editor_would_delete_note">ბარათის ამ ტიპის წაშლა გამოიწვევს ერთი ან მეტი შენიშვნის წაშლას. გთხოვთ, ჯერ შექმენით და შეინახოთ ბარათის ახალი ტიპი.</string>
+    <string name="card_template_editor_save_error">ბარათის შაბლონის ცვლილებების შენახვა შეუძლებელია: %s</string>
+    <string name="template_for_current_card_deleted">ბარათის ტიპი მიმდინარე ბარათისთვის წაიშალა.</string>
+<string name="card_template_browser_appearance_title">ბრაუზერის გარეგნობა</string>
+    <string name="current_and_default_deck">%1$s (%2$s)</string>
+<string name="card_info_title">ბარათის ინფორმაცია</string>
+<string name="read_write_permission_label">წაიკითხეთ და ჩაწერეთ AnkiDroid მონაცემთა ბაზაში</string>
+    <string name="read_write_permission_description">წვდომა არსებულ ნოტებზე, ბარათებზე, ნოტების ტიპებსა და გემბანებზე, ასევე შექმენით ახალი</string>
+<string name="card_browser_context_menu" comment="The value which appears in the system context menu. Note the casing difference">ბარათის ბრაუზერი</string>
+
+    <string name="context_menu_anki_card_label">ანკი ბარათი</string>
+    <string name="has_a_problem" comment="First field is either front template or back template. Second field is the error message.">%1$s-ს აქვს პრობლემა:<br/>%2$s</string>
+    <string name="more_information">Მეტი ინფორმაცია</string>
+    <string name="no_field">ნაპოვნია „{{%1$s}}“, მაგრამ არ არის ველი სახელწოდებით „%1$s“.</string>
+    <string name="closed_tag_not_open">ნაპოვნია „{{/%1$s}}“, მაგრამ აკლია „{{#%1$s}}“ ან „{{^%1$s}}“.</string>
+    <string name="missing_closing_bracket">აკლია \'}}\' \'%s\'-ში.</string>
+    <string name="open_tag_not_closed">აკლია „{{%s}}“.</string>
+    <string name="wrong_tag_closed">ნაპოვნია „{{/%1$s}}“, მაგრამ მოსალოდნელია „{{/%2$s}}“</string>
+    <string name="filter_error">შეცდომა %s ფილტრში</string>
+<string name="sync_conflict_message_new">კოლექციების გაერთიანება შეუძლებელია.\nრომელი კოლექციის შენარჩუნება გსურთ?</string>
+    <string name="sync_conflict_keep_local_new" comment="Select AnkiDroid files to keep while syncing">ანკიდროიდი</string>
+    <string name="sync_conflict_keep_remote_new" comment="Select AnkiWeb files to keep while syncing">AnkiWeb</string>
+    <string name="sync_conflict_remote_confirm_new">შეცვალოთ თქვენი კოლექცია AnkiDroid-ზე თქვენი კოლექციით AnkiWeb-დან?</string>
+    <string name="sync_conflict_local_confirm_new">შეცვალოთ თქვენი კოლექცია AnkiWeb-ზე თქვენი კოლექციით AnkiDroid-დან?</string>
+    <string name="sync_conflict_title_new">აირჩიეთ კოლექცია შესანახად</string>
+    <string name="sync_conflict_replace_title">შეცვალეთ კოლექცია</string>
+
+    <plurals name="deckpicker_title_zero_due">
+        <item quantity="one">%1$d ბარათი (0 გადასახდელი)</item>
+        <item quantity="other">%1$d ბარათი (0 გადასახდელი)</item>
+    </plurals>
+
+    <string name="copy_note_type_name" comment="The new name of a copied note type">%s ასლი</string>
+</resources>

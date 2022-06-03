@@ -1,0 +1,183 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<resources>
+    <string name="yes">是的</string>
+<string name="decks">甲板</string>
+    <string name="card_browser" comment="The usage of card browser inside the app (note the casing)">卡片浏览器</string>
+    <string name="statistics">统计数据</string>
+    <string name="settings">设置测试测试</string>
+    <string name="help">帮还是不帮</string>
+    <string name="drawing">画画</string>
+    <string name="send_feedback">发送反馈</string>
+
+    <string name="studyoptions_due_today">截止到今天：</string>
+    <string name="studyoptions_new_total">新卡总数：</string>
+    <string name="studyoptions_total_cards">总卡数：</string>
+    <string name="studyoptions_eta">预计时间（分钟）：</string>
+    <string name="studyoptions_start">此文本已更改</string>
+<string name="expand">这是一个测试</string>
+    <string name="collapse">坍塌</string>
+    <string name="study_more">学习更多</string>
+    <plurals name="deckpicker_title">
+        <item quantity="one">%1$d 卡到期 (%2$s)</item>
+        <item quantity="other">%1$d 张到期卡片 (%2$s)</item>
+    </plurals>
+    <plurals name="reviewer_window_title">
+        <item quantity="one">还剩 %d 分钟</item>
+        <item quantity="other">还剩 %d 分钟</item>
+    </plurals>
+    <plurals name="reviewer_window_title_hours">
+        <item quantity="one">还剩 %d 小时 %d</item>
+        <item quantity="other">还剩 %d 小时 %d</item>
+    </plurals>
+    <plurals name="reviewer_window_title_days">
+        <item quantity="one">还剩 %d 天 %d</item>
+        <item quantity="other">还剩 %d 天 %d</item>
+    </plurals>
+    <string name="no_cards_placeholder_title">收藏为空</string>
+    <string name="no_cards_placeholder_description">开始添加卡片\n使用 + 图标。</string>
+<plurals name="studied_cards_today">
+        <item quantity="one">今天在 %2$s 学习了 %1$d 张卡片</item>
+        <item quantity="other">今天在 %2$s 学习了 %1$d 张卡片</item>
+    </plurals>
+<string name="type_answer_hint">输入答案</string>
+    <string name="show_answer">显示答案</string>
+    <string name="hide_answer">隐藏答案</string>
+    <string name="ease_button_again">再次</string>
+    <string name="ease_button_hard">难的</string>
+    <string name="ease_button_good">好的</string>
+    <string name="ease_button_easy">简单</string>
+    <string name="studyoptions_congrats_undo">撤消 %s</string>
+    <string name="menu_import">进口</string>
+    <string name="undo">撤消</string>
+    <string name="undo_action_review">上次审查</string>
+    <string name="undo_action_change_deck_multi">换牌</string>
+    <string name="move_all_to_deck">全部移至甲板</string>
+    <string name="unbury">安伯里</string>
+    <string name="rename_deck">重命名牌组</string>
+    <string name="create_shortcut">创建快捷方式</string>
+    <string name="browse_cards">浏览卡片</string>
+    <string name="menu_add" comment="A generic add button - Main Deck Picker and card templates. Please inform us if you need more specific strings">添加</string>
+    <string name="menu_add_note">添加备注</string>
+    <string name="menu_my_account" comment="Label of the window in which the user should enter their account. This text can't be found in AnkiDroid directly.">同步帐号</string>
+    <string name="menu_dismiss_note">隐藏/删除</string>
+    <string name="menu_bury_card">埋卡</string>
+    <string name="menu_bury_note">埋葬笔记</string>
+    <string name="menu_suspend_card">暂停卡</string>
+    <string name="menu_suspend_note">暂停笔记</string>
+    <string name="menu_bury">埋葬</string>
+    <string name="menu_suspend">暂停</string>
+    <string name="menu_delete_note">删除笔记</string>
+    <string name="menu_flag">旗帜</string>
+    <string name="menu_flag_card">旗卡</string>
+    <string name="menu_flag_card_zero">没有标志</string>
+    <string name="menu_flag_card_one">红旗</string>
+    <string name="menu_flag_card_two">橙色旗帜</string>
+    <string name="menu_flag_card_three">绿旗</string>
+    <string name="menu_flag_card_four">蓝旗</string>
+    <string name="menu_flag_card_five">粉红旗</string>
+    <string name="menu_flag_card_six">绿松石旗</string>
+    <string name="menu_flag_card_seven">紫旗</string>
+    <string name="menu_edit_tags">编辑标签</string>
+    <string name="delete_note_message">真的要删除此便笺及其所有卡片吗？\n%s</string>
+    <string name="menu_select">选择文字</string>
+    <string name="menu_lookup">查找文本</string>
+    <string name="menu_search">在 %1$s 中查找</string>
+    <string name="menu_mark_note">标记笔记</string>
+    <string name="menu_unmark_note">取消标记笔记</string>
+    <string name="menu_toggle_mic_tool_bar">检查发音</string>
+    <string name="new_deck">创建甲板</string>
+    <string name="new_dynamic_deck">创建过滤甲板</string>
+    <string name="night_mode">夜间模式</string>
+    <string name="directory_inaccessible">AnkiDroid 目录无法访问</string>
+<string name="startup_no_storage_permission">请授予 AnkiDroid“存储”权限以继续</string>
+<string name="time_quantity_seconds">%ds</string>
+    <string name="time_quantity_minutes">%d 分钟</string>
+    <string name="time_quantity_hours_minutes">%1$dh %2$dm</string>
+    <string name="time_quantity_hours">%dh</string>
+    <string name="time_quantity_days">%dd</string>
+    <string name="time_quantity_days_hours">%1$dd %2$dh</string>
+    <string name="time_quantity_months">%.1f 月</string>
+    <string name="time_quantity_years">%.1f 年</string>
+<string name="rebuild_filtered_deck">重建过滤甲板…</string>
+    <string name="rebuild_cram_label">重建</string>
+    <string name="empty_cram_label">空的</string>
+    <string name="create_subdeck">创建子甲板</string>
+    <string name="empty_filtered_deck">清空过滤后的甲板…</string>
+    <string name="custom_study_deck_name">定制学习课程</string>
+    <string name="custom_study_deck_exists">首先重命名现有的自定义学习平台</string>
+    <string name="empty_deck">这个甲板是空的</string>
+    <string name="search_deck">甲板搜索</string>
+    <string name="empty_deck_add_note">添加卡片</string>
+    <string name="invalid_deck_name">牌组名称无效</string>
+    <string name="studyoptions_empty">这个甲板是空的。按 + 按钮添加新内容。</string>
+    <string name="studyoptions_limit_reached">达到每日学习限额</string>
+    <string name="studyoptions_empty_schedule">没有计划学习的卡片</string>
+    <string name="studyoptions_congrats_finished">恭喜！你已经完成了。</string>
+    <string name="studyoptions_congrats_more_rev">已经达到今天的限制，但仍有卡片要审查。您可以在选项中增加限制。</string>
+    <string name="studyoptions_congrats_more_new">已达到今天的上限。有更多新卡可用；您可以在选项中增加限制，但这会增加您的短期审查工作量。</string>
+    <string name="studyoptions_congrats_custom">要在正常时间表之外学习，请触摸“自定义学习”按钮</string>
+    <string name="studyoptions_no_cards_due">还没有到期的卡</string>
+
+    <string name="sd_card_not_mounted">未安装设备存储</string>
+    <string name="empty_cloze_warning">编辑此注释并添加一些完形填空删除。 (%1$s)</string>
+    <string name="button_sync">同步</string>
+    <string name="cancel_sync_confirm">您要取消同步吗？</string>
+    <string name="continue_sync">继续同步</string>
+    <string name="sync_cancelled">同步已取消</string>
+    <string name="sync_cancel_message">正在取消...\n这可能需要一些时间。</string>
+    <string name="export">出口</string>
+    <string name="export_collection">出口集合</string>
+    <string name="export_deck">出口甲板</string>
+    <string name="nothing">没有什么</string>
+<string name="title_activity_template_editor">卡片类型</string>
+    <string name="card_template_editor_front">前台模板</string>
+    <string name="card_template_editor_back">返回模板</string>
+    <string name="card_template_editor_styling">造型</string>
+    <string name="card_template_editor_menu_card_browser_appearance">卡片浏览器外观</string>
+    <string name="card_template_editor_deck_override">甲板覆盖</string>
+    <string name="card_template_editor_insert_field">插入字段</string>
+    <string name="card_template_editor_select_field">选择字段</string>
+    <string name="card_template_editor_cant_delete">至少需要一种卡类型</string>
+    <plurals name="card_template_editor_confirm_add">
+        <item quantity="one">这将创建 %1$d 张卡片。继续？</item>
+        <item quantity="other">这将创建 %1$d 张卡片。继续？</item>
+    </plurals>
+    <plurals name="card_template_editor_confirm_delete">
+        <item quantity="one">删除“%2$s”卡类型及其 %1$d 卡？</item>
+        <item quantity="other">删除“%2$s”卡类型及其%1$d 卡？</item>
+    </plurals>
+    <string name="invalid_template">无法生成卡片</string>
+    <string name="card_template_editor_would_delete_note">移除这种卡片类型会导致一个或多个笔记被删除。请先创建并保存新的卡片类型。</string>
+    <string name="card_template_editor_save_error">无法保存卡片模板更改：%s</string>
+    <string name="template_for_current_card_deleted">当前卡的卡类型已删除。</string>
+<string name="card_template_browser_appearance_title">浏览器外观</string>
+    <string name="current_and_default_deck">%1$s (%2$s)</string>
+<string name="card_info_title">卡信息</string>
+<string name="read_write_permission_label">读取和写入 AnkiDroid 数据库</string>
+    <string name="read_write_permission_description">访问现有的笔记、卡片、笔记类型和卡片组，以及创建新的</string>
+<string name="card_browser_context_menu" comment="The value which appears in the system context menu. Note the casing difference">卡片浏览器</string>
+
+    <string name="context_menu_anki_card_label">安琪卡</string>
+    <string name="has_a_problem" comment="First field is either front template or back template. Second field is the error message.">%1$s 有问题：<br/>%2$s</string>
+    <string name="more_information">更多信息</string>
+    <string name="no_field">找到“{{%1$s}}”，但没有名为“%1$s”的字段。</string>
+    <string name="closed_tag_not_open">找到了“{{/%1$s}}”，但缺少“{{#%1$s}}”或“{{^%1$s}}”。</string>
+    <string name="missing_closing_bracket">“%s”中缺少“}}”。</string>
+    <string name="open_tag_not_closed">缺少“{{%s}}”。</string>
+    <string name="wrong_tag_closed">找到“{{/%1$s}}”，但应为“{{/%2$s}}”</string>
+    <string name="filter_error">过滤器 %s 中的错误</string>
+<string name="sync_conflict_message_new">无法合并集合。\n您想保留哪个集合？</string>
+    <string name="sync_conflict_keep_local_new" comment="Select AnkiDroid files to keep while syncing">机器人</string>
+    <string name="sync_conflict_keep_remote_new" comment="Select AnkiWeb files to keep while syncing">安基网</string>
+    <string name="sync_conflict_remote_confirm_new">将您在 AnkiDroid 上的收藏替换为您在 AnkiWeb 上的收藏？</string>
+    <string name="sync_conflict_local_confirm_new">将您在 AnkiWeb 上的收藏替换为您在 AnkiDroid 上的收藏？</string>
+    <string name="sync_conflict_title_new">选择要保留的收藏</string>
+    <string name="sync_conflict_replace_title">替换集合</string>
+
+    <plurals name="deckpicker_title_zero_due">
+        <item quantity="one">%1$d 张卡片（0 张到期）</item>
+        <item quantity="other">%1$d 张卡片（0 张到期）</item>
+    </plurals>
+
+    <string name="copy_note_type_name" comment="The new name of a copied note type">%s 副本</string>
+</resources>

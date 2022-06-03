@@ -1,0 +1,183 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<resources>
+    <string name="yes">sì</string>
+<string name="decks">mazzi</string>
+    <string name="card_browser" comment="The usage of card browser inside the app (note the casing)">Browser della carta</string>
+    <string name="statistics">Statistiche</string>
+    <string name="settings">Test delle impostazioni di prova</string>
+    <string name="help">Aiutare o non aiutare</string>
+    <string name="drawing">Disegno</string>
+    <string name="send_feedback">Invia feedback</string>
+
+    <string name="studyoptions_due_today">Da fare oggi:</string>
+    <string name="studyoptions_new_total">Totale nuove carte:</string>
+    <string name="studyoptions_total_cards">Carte totali:</string>
+    <string name="studyoptions_eta">Tempo stimato (min):</string>
+    <string name="studyoptions_start">Studia</string>
+<string name="expand">Questo è un test</string>
+    <string name="collapse">Crollo</string>
+    <string name="study_more">Studia di più</string>
+    <plurals name="deckpicker_title">
+        <item quantity="one">%1$d carta in scadenza (%2$s)</item>
+        <item quantity="other">%1$d carte in scadenza (%2$s)</item>
+    </plurals>
+    <plurals name="reviewer_window_title">
+        <item quantity="one">%d minuti rimasti</item>
+        <item quantity="other">%d minuti rimasti</item>
+    </plurals>
+    <plurals name="reviewer_window_title_hours">
+        <item quantity="one">%d ora %d rimasta</item>
+        <item quantity="other">%d ore %d rimaste</item>
+    </plurals>
+    <plurals name="reviewer_window_title_days">
+        <item quantity="one">%d giorno %d rimasto</item>
+        <item quantity="other">%d giorni %d rimasti</item>
+    </plurals>
+    <string name="no_cards_placeholder_title">La raccolta è vuota</string>
+    <string name="no_cards_placeholder_description">Inizia ad aggiungere carte\usando l\'icona +.</string>
+<plurals name="studied_cards_today">
+        <item quantity="one">Ha studiato %1$d carta in %2$s oggi</item>
+        <item quantity="other">Oggi ho studiato %1$d carte in %2$s</item>
+    </plurals>
+<string name="type_answer_hint">Tipo di risposta</string>
+    <string name="show_answer">Mostra risposta</string>
+    <string name="hide_answer">Nascondi risposta</string>
+    <string name="ease_button_again">Ancora</string>
+    <string name="ease_button_hard">Duro</string>
+    <string name="ease_button_good">Buono</string>
+    <string name="ease_button_easy">Facile</string>
+    <string name="studyoptions_congrats_undo">Annulla %s</string>
+    <string name="menu_import">Importare</string>
+    <string name="undo">Annullare</string>
+    <string name="undo_action_review">ultima recensione</string>
+    <string name="undo_action_change_deck_multi">cambia mazzo</string>
+    <string name="move_all_to_deck">Sposta tutto nel mazzo</string>
+    <string name="unbury">Unbury</string>
+    <string name="rename_deck">Rinomina mazzo</string>
+    <string name="create_shortcut">Creare una scorciatoia</string>
+    <string name="browse_cards">Sfoglia le carte</string>
+    <string name="menu_add" comment="A generic add button - Main Deck Picker and card templates. Please inform us if you need more specific strings">Aggiungere</string>
+    <string name="menu_add_note">Aggiungi nota</string>
+    <string name="menu_my_account" comment="Label of the window in which the user should enter their account. This text can't be found in AnkiDroid directly.">Sincronizza account</string>
+    <string name="menu_dismiss_note">Nascondi / elimina</string>
+    <string name="menu_bury_card">Seppellisci la carta</string>
+    <string name="menu_bury_note">Seppellire la nota</string>
+    <string name="menu_suspend_card">Sospendi carta</string>
+    <string name="menu_suspend_note">Sospendi nota</string>
+    <string name="menu_bury">Seppellire</string>
+    <string name="menu_suspend">Sospendere</string>
+    <string name="menu_delete_note">Elimina nota</string>
+    <string name="menu_flag">Bandiera</string>
+    <string name="menu_flag_card">Carta bandiera</string>
+    <string name="menu_flag_card_zero">nessuna bandiera</string>
+    <string name="menu_flag_card_one">bandiera rossa</string>
+    <string name="menu_flag_card_two">bandiera arancione</string>
+    <string name="menu_flag_card_three">Bandiera verde</string>
+    <string name="menu_flag_card_four">Bandiera blu</string>
+    <string name="menu_flag_card_five">Bandiera rosa</string>
+    <string name="menu_flag_card_six">Bandiera turchese</string>
+    <string name="menu_flag_card_seven">Bandiera viola</string>
+    <string name="menu_edit_tags">Modificare i tag</string>
+    <string name="delete_note_message">Eliminare davvero questa nota e tutte le sue carte?\n%s</string>
+    <string name="menu_select">Seleziona il testo</string>
+    <string name="menu_lookup">Cerca testo</string>
+    <string name="menu_search">Cerca in %1$s</string>
+    <string name="menu_mark_note">Segna nota</string>
+    <string name="menu_unmark_note">Deseleziona nota</string>
+    <string name="menu_toggle_mic_tool_bar">Controlla la pronuncia</string>
+    <string name="new_deck">Crea mazzo</string>
+    <string name="new_dynamic_deck">Crea un mazzo filtrato</string>
+    <string name="night_mode">Modalità notturna</string>
+    <string name="directory_inaccessible">La directory AnkiDroid è inaccessibile</string>
+<string name="startup_no_storage_permission">Si prega di concedere ad AnkiDroid l\'autorizzazione \"Archiviazione\" per continuare</string>
+<string name="time_quantity_seconds">%ds</string>
+    <string name="time_quantity_minutes">%d min</string>
+    <string name="time_quantity_hours_minutes">%1$dh %2$dm</string>
+    <string name="time_quantity_hours">%dh</string>
+    <string name="time_quantity_days">%dd</string>
+    <string name="time_quantity_days_hours">%1$dd %2$dh</string>
+    <string name="time_quantity_months">%.1f mo</string>
+    <string name="time_quantity_years">%.1f anno</string>
+<string name="rebuild_filtered_deck">Ricostruzione del mazzo filtrato...</string>
+    <string name="rebuild_cram_label">Ricostruire</string>
+    <string name="empty_cram_label">Vuoto</string>
+    <string name="create_subdeck">Crea sottomazzo</string>
+    <string name="empty_filtered_deck">Svuotamento deck filtrato...</string>
+    <string name="custom_study_deck_name">Sessione di studio personalizzata</string>
+    <string name="custom_study_deck_exists">Rinominare prima il mazzo di studio personalizzato esistente</string>
+    <string name="empty_deck">Questo mazzo è vuoto</string>
+    <string name="search_deck">Ricerca del mazzo</string>
+    <string name="empty_deck_add_note">Aggiungi carta</string>
+    <string name="invalid_deck_name">Nome del mazzo non valido</string>
+    <string name="studyoptions_empty">Questo mazzo è vuoto. Premi il pulsante + per aggiungere nuovi contenuti.</string>
+    <string name="studyoptions_limit_reached">Limite giornaliero di studio raggiunto</string>
+    <string name="studyoptions_empty_schedule">Nessuna carta programmata per lo studio</string>
+    <string name="studyoptions_congrats_finished">Congratulazioni! Hai finito per ora.</string>
+    <string name="studyoptions_congrats_more_rev">Il limite di oggi è stato raggiunto, ma ci sono ancora carte da rivedere. Puoi aumentare il limite nelle opzioni.</string>
+    <string name="studyoptions_congrats_more_new">Il limite di oggi è stato raggiunto. Ci sono più nuove carte disponibili; puoi aumentare il limite nelle opzioni, ma ciò aumenterà il carico di lavoro della revisione a breve termine.</string>
+    <string name="studyoptions_congrats_custom">Per studiare al di fuori del normale orario, tocca il pulsante \"Studio personalizzato\"</string>
+    <string name="studyoptions_no_cards_due">Non sono ancora scadute le carte</string>
+
+    <string name="sd_card_not_mounted">Memoria del dispositivo non montata</string>
+    <string name="empty_cloze_warning">Modifica questa nota e aggiungi alcune eliminazioni cloze. (%1$s)</string>
+    <string name="button_sync">Sincronizza</string>
+    <string name="cancel_sync_confirm">Vuoi annullare la sincronizzazione?</string>
+    <string name="continue_sync">Continua sincronizzazione</string>
+    <string name="sync_cancelled">Sincronizzazione annullata</string>
+    <string name="sync_cancel_message">Annullamento...\nL\'operazione potrebbe richiedere del tempo.</string>
+    <string name="export">Esportare</string>
+    <string name="export_collection">Esporta raccolta</string>
+    <string name="export_deck">Esporta mazzo</string>
+    <string name="nothing">Niente</string>
+<string name="title_activity_template_editor">Tipi di carte</string>
+    <string name="card_template_editor_front">Modello frontale</string>
+    <string name="card_template_editor_back">Modello indietro</string>
+    <string name="card_template_editor_styling">Messa in piega</string>
+    <string name="card_template_editor_menu_card_browser_appearance">Aspetto del browser della scheda</string>
+    <string name="card_template_editor_deck_override">Sostituzione del mazzo</string>
+    <string name="card_template_editor_insert_field">Inserisci campo</string>
+    <string name="card_template_editor_select_field">Seleziona campo</string>
+    <string name="card_template_editor_cant_delete">È richiesto almeno un tipo di carta</string>
+    <plurals name="card_template_editor_confirm_add">
+        <item quantity="one">Questo creerà %1$d carta. Procedere?</item>
+        <item quantity="other">Questo creerà %1$d carte. Procedere?</item>
+    </plurals>
+    <plurals name="card_template_editor_confirm_delete">
+        <item quantity="one">Eliminare il tipo di carta \"%2$s\" e la sua carta %1$d?</item>
+        <item quantity="other">Eliminare il tipo di carta \"%2$s\" e le sue carte %1$d?</item>
+    </plurals>
+    <string name="invalid_template">Non è stato possibile generare una carta</string>
+    <string name="card_template_editor_would_delete_note">La rimozione di questo tipo di carta causerebbe l\'eliminazione di una o più note. Si prega di creare e salvare prima un nuovo tipo di carta.</string>
+    <string name="card_template_editor_save_error">Impossibile salvare le modifiche al modello della carta: %s</string>
+    <string name="template_for_current_card_deleted">Il tipo di carta per la carta corrente è stato eliminato.</string>
+<string name="card_template_browser_appearance_title">Aspetto del browser</string>
+    <string name="current_and_default_deck">%1$s (%2$s)</string>
+<string name="card_info_title">Informazioni sulla carta</string>
+<string name="read_write_permission_label">Leggi e scrivi nel database AnkiDroid</string>
+    <string name="read_write_permission_description">accedere a note, carte, tipi di note e mazzi esistenti, nonché crearne di nuovi</string>
+<string name="card_browser_context_menu" comment="The value which appears in the system context menu. Note the casing difference">Browser delle carte</string>
+
+    <string name="context_menu_anki_card_label">Carta di Anki</string>
+    <string name="has_a_problem" comment="First field is either front template or back template. Second field is the error message.">%1$s ha un problema:<br/>%2$s</string>
+    <string name="more_information">Maggiori informazioni</string>
+    <string name="no_field">Trovato \'{{%1$s}}\', ma non c\'è nessun campo chiamato \'%1$s\'.</string>
+    <string name="closed_tag_not_open">\'{{/%1$s}}\' trovato, ma manca \'{{#%1$s}}\' o \'{{^%1$s}}\'.</string>
+    <string name="missing_closing_bracket">Manca \'}}\' in \'%s\'.</string>
+    <string name="open_tag_not_closed">Manca \'{{%s}}\'.</string>
+    <string name="wrong_tag_closed">Trovato \'{{/%1$s}}\', ma previsto \'{{/%2$s}}\'</string>
+    <string name="filter_error">Errore nel filtro %s</string>
+<string name="sync_conflict_message_new">Le raccolte non possono essere combinate.\nQuale raccolta vuoi conservare?</string>
+    <string name="sync_conflict_keep_local_new" comment="Select AnkiDroid files to keep while syncing">AnkiDroid</string>
+    <string name="sync_conflict_keep_remote_new" comment="Select AnkiWeb files to keep while syncing">AnkiWeb</string>
+    <string name="sync_conflict_remote_confirm_new">Sostituire la tua collezione su AnkiDroid con la tua collezione da AnkiWeb?</string>
+    <string name="sync_conflict_local_confirm_new">Sostituire la tua raccolta su AnkiWeb con la tua raccolta su AnkiDroid?</string>
+    <string name="sync_conflict_title_new">Seleziona la collezione da conservare</string>
+    <string name="sync_conflict_replace_title">Sostituisci raccolta</string>
+
+    <plurals name="deckpicker_title_zero_due">
+        <item quantity="one">%1$d carta (0 in scadenza)</item>
+        <item quantity="other">%1$d carte (0 in scadenza)</item>
+    </plurals>
+
+    <string name="copy_note_type_name" comment="The new name of a copied note type">%s copia</string>
+</resources>
