@@ -14,7 +14,7 @@
     <string name="studyoptions_total_cards">总卡数：</string>
     <string name="studyoptions_eta">预计时间（分钟）：</string>
     <string name="studyoptions_start">此文本已更改</string>
-<string name="expand">扩张</string>
+<string name="expand">这是一个测试</string>
     <string name="collapse">坍塌</string>
     <string name="study_more">学习更多</string>
     <plurals name="deckpicker_title">
